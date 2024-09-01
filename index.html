@@ -7,10 +7,11 @@
     <meta name="author" content="Florencia Santucho" />
     <meta name="description" content="Entregable 2 Coder JavaScript"/>
     <meta name="keywords" content="JavaScript, js, Coder"/>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <section id="app">
-        <h1>Bienvenido a nuestra tienda online</h1>
+        <h1 class="tituloBienvenida"><u>Bienvenido a nuestra tienda online</u></h1>
 
         <form id="formularioCompra">
             <label for="nombreCliente">Nombre:</label>
@@ -24,11 +25,12 @@
                 <option value="Tablet">Tablet</option>
             </select><br><br>
 
-            <button type="submit">Confirmar compra</button>
+            <button type="submit" class="botonCompra">Confirmar compra</button>
         </form>
-
-        <h2>Carrito de Compras</h2>
+        <article class="carritoCompras">
+        <h2><u>Carrito de Compras</u></h2>
         <ul id="cart"></ul>
+    </article>
     </section>
     <script src="./js/main.js"></script>
 </body>

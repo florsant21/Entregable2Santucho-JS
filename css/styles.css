@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.tituloBienvenida {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#formularioCompra {
+  text-align: center;
+}
+
+.botonCompra {
+  all: unset;
+  text-decoration: none;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(255, 251, 2);
+  &:hover {
+    background-color: rgb(255, 208, 0);
+    cursor: pointer;
+  }
+}
+
+.carritoCompras {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#producto {
+    cursor: pointer;
+}
