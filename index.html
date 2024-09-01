@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable 2 - Javascript</title>
+    <meta name="author" content="Florencia Santucho" />
+    <meta name="description" content="Entregable 2 Coder JavaScript"/>
+    <meta name="keywords" content="JavaScript, js, Coder"/>
+</head>
+<body>
+    <section id="app">
+        <h1>Bienvenido a nuestra tienda online</h1>
+
+        <form id="formularioCompra">
+            <label for="nombreCliente">Nombre:</label>
+            <input type="text" id="nombreCliente" required><br><br>
+
+            <label for="producto">Selecciona un producto:</label>
+            <select id="producto" required>
+                <option value="" disabled selected>Elige una opción</option>
+                <option value="Computadora">Computadora</option>
+                <option value="Celular">Celular</option>
+                <option value="Tablet">Tablet</option>
+            </select><br><br>
+
+            <button type="submit">Confirmar compra</button>
+        </form>
+
+        <h2>Carrito de Compras</h2>
+        <ul id="cart"></ul>
+    </section>
+    
+</body>
+</html>
